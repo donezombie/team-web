@@ -1,0 +1,22 @@
+:root {
+  --border-color: #ccc;
+  --box-shadow: 3.5px 6.1px 30px rgba(0, 0, 0, 0.57);
+  --background-color: #141229;
+  --background-color-sub: #292845;
+  --color-hover: #1bc2ca;
+  --color-text: #fff;
+  --progress-color: #fff;
+}
+
+$default-color: #000;
+$main-color: var(--background-color-sub);
+$sub-color: var(--background-color-sub);
+$progress-color: var(--progress-color);
+$button-color: rgba(240, 81, 83, 0.95);
+$hover-color: var(--color-hover);
+$text-sub-color: var(--color-hover);
+$text-color: var(--color-text);
+$subtitle-color: #716c80;
+$border-color: var(--border-color);
+
+$box-shadow-common: var(--box-shadow);

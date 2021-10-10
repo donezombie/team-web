@@ -1,0 +1,49 @@
+.root-tech {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.title-tech {
+  color: #eb1c22;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+.description-tech {
+  color: #54595f;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+}
+
+.content-tech {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-top: 50px;
+  .item-tech {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+  }
+  .name-tech {
+    color: #54595F;
+    font-size: 18px;
+    letter-spacing: 0.4;
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .icon-tech {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-tech {
+    font-size: 28px;
+  }
+}

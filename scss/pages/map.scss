@@ -1,0 +1,63 @@
+#map {
+  position: relative;
+  width: 100%;
+}
+
+.send-message {
+  width: 100%;
+  max-width: 400px;
+
+  position: absolute;
+  z-index: 10;
+  right: 120px;
+  bottom: -40px;
+  
+  background-color: white;
+  
+  padding: 2rem;
+
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+}
+
+.send-message__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.send-message input,.send-message textarea {
+  margin-bottom: 0.8rem;
+  height: 50px;
+}
+
+.send-message textarea {
+  height: 100px !important;
+}
+
+.send-message__button {
+  @include button;
+  max-width: 100%;
+}
+
+.send-message .invalid-feedback {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .send-message {
+    position: static;
+    top: 100%;
+    right: initial;
+    bottom: initial;
+    max-width: 100%;
+    box-shadow: none;
+  }
+  #map {
+    display: flex;
+    flex-flow: column;
+    height: 130vh !important;
+    > div {
+      position: relative !important;
+    }
+  }
+}

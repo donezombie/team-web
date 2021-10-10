@@ -1,4 +1,4 @@
-<h1 align="center">Typescript + Next.js + Redux + Redux Saga + Scss + i18n</h1>
+<h1 align="center">React + Next.js + Redux + Redux Saga + Scss</h1>
 
 <p align="center">
   <a href="https://nextjs.org/" target="_blank"><img src="https://img.shields.io/badge/Next.js-v9.3.5-blueviolet.svg"></a>
@@ -6,30 +6,31 @@
   <a href="https://github.com/codica2" target="_blank"><img src="https://img.shields.io/badge/licence-MIT-green.svg" /></a>
 </p>
 
-## Packages use in template:
+## Packges use in template:
 
-- Typescript
 - React.js
-- Next.js
+- Next.js ( latest ) 
 - SCSS
 - Redux
 - Redux Saga
 - Axios
 - Formik
 - Yup Validator
-- i18n (multi lang)
 
 ## How to use
 
 ```javascript
 npm i
-npm run dev ( development )
-
-npm run build
-npm run publish (build & export)
+npm run dev ( developepment )
+npm start ( production )
 ```
 
-### New upgrade
+## Environment
 
-- Upgrade Nextjs 11.1.2.
-- Restructure Redux folder.
+You can access your .env variables by deconstructing 'process.env' object, both on client and server.
+Just make sure that you reboot the server when updating .env file
+
+### Development
+
+- Upgrade Nextjs 9.3.
+- Restructure Redux folder. 

@@ -1,4 +1,7 @@
 {
+  "git.ignoreLimitWarning": true,
+
+  "cSpell.words": ["Servlet"],
   "editor.formatOnSave": true,
   "eslint.enable": true,
   "files.eol": "\n",
