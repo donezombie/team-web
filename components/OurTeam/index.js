@@ -1,6 +1,7 @@
 import React from "react";
 import icons from "../../constants/icons";
 import data from "../../constants/data_our_team.json";
+import Title from "../Title";
 
 const OurTeamSection = (props) => {
   //! State
@@ -10,9 +11,7 @@ const OurTeamSection = (props) => {
   //! Render
   return (
     <div id="our-team" className="our-team">
-      <div className="our-team__head wow fadeIn">
-        <h2>Meet our team</h2>
-      </div>
+      <Title title="Meet our team" />
       <div className="our-team__member-list">
         {data.map((member, idx) => (
           <div

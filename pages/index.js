@@ -7,6 +7,7 @@ import Technologies from "../components/Technologies/index";
 import FAQ from "../components/FAQ/FAQ";
 import SpaceContainer from "../components/SpaceContainer";
 import OurTeamSection from "../components/OurTeam";
+import RequirementsSection from "../components/Requirements";
 
 // const { testAction } = actions;
 const dataTech = [
@@ -90,6 +91,10 @@ export default function Index() {
     <div className="root">
       <SpaceContainer>
         <OurTeamSection />
+      </SpaceContainer>
+
+      <SpaceContainer>
+        <RequirementsSection />
       </SpaceContainer>
 
       {/* <SpaceContainer>

@@ -92,3 +92,47 @@ hr {
     font-size: 0.75rem !important;
   }
 }
+
+.title-common {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.requirement-common {
+  background-color: $sub-color;
+  border-radius: 15px;
+  padding: 16px;
+  margin-bottom: 16px;
+  list-style: none;
+
+  .logo-requirement {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+
+    object-position: center;
+  }
+
+  .main-requirement {
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    transition: 0.3s;
+    text-decoration: none;
+    color: $text-sub-color;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  > li {
+    padding-left: 3rem;
+
+    svg {
+      margin-right: 0.825rem;
+    }
+  }
+}

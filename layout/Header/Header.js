@@ -14,20 +14,8 @@ const listMenu = [
     path: "our-team",
   },
   {
-    name: "Technologies",
-    path: "technologies",
-  },
-  {
-    name: "Industry Verticals",
-    path: "industry",
-  },
-  {
-    name: "FAQ",
-    path: "faq",
-  },
-  {
-    name: "Contact Us",
-    path: "contact",
+    name: "Requirements",
+    path: "requirements",
   },
 ];
 
