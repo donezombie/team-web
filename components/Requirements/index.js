@@ -26,9 +26,6 @@ const data = [
         name: "Javascript Promise",
         link: "https://www.w3schools.com/js/js_promise.asp",
       },
-      {
-        name: "Javascript ",
-      },
     ],
   },
   {
