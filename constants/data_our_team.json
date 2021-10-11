@@ -39,5 +39,25 @@
         "link": "https://github.com/Din0Dev"
       }
     ]
+  },
+  {
+    "id": "3",
+    "name": "Nguyễn Quang Thắng",
+    "role": "Developer",
+    "avatar": "/static/assets/members/thang.jpeg",
+    "styleAvatar": {
+      "objectPosition": "center"
+    },
+    "quote": "Stay close to people who feel like sunshine",
+    "socialMedia": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/thang.nguyenquang.18041"
+      },
+      {
+        "name": "github",
+        "link": "https://github.com/thangnq1007"
+      }
+    ]
   }
 ]
