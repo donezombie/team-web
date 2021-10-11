@@ -20,7 +20,11 @@ const OurTeamSection = (props) => {
             data-wow-delay={`${0.1 * (idx + 1)}s`}
           >
             <div className="our-team__avatar">
-              <img src={member.avatar} alt={member.name} />
+              <img
+                src={member.avatar}
+                alt={member.name}
+                style={member?.styleAvatar || {}}
+              />
             </div>
 
             <div className="our-team__info">
@@ -38,7 +42,10 @@ const OurTeamSection = (props) => {
                 ))}
               </div>
               <div className="our-team__quote">
-                <blockquote>"{member.quote}"</blockquote>
+                <blockquote>
+                  "
+                  <span dangerouslySetInnerHTML={{ __html: member.quote }} />"
+                </blockquote>
               </div>
             </div>
           </div>
