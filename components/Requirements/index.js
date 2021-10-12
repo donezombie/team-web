@@ -82,6 +82,11 @@ const data = [
     name: "SCSS / SASS",
     link: "https://sass-lang.com",
   },
+  {
+    img: "/static/assets/git-logo.png",
+    name: "Git",
+    link: "https://www.youtube.com/watch?v=1JuYQgpbrW0&ab_channel=Ph%E1%BA%A1mHuyHo%C3%A0ng",
+  },
 ];
 
 const RequirementsSection = (props) => {
@@ -92,6 +97,7 @@ const RequirementsSection = (props) => {
   //! Render
   return (
     <div className="requirements" id="requirements">
+      <div id="trigger" />
       <Title title="Requirements" />
       <div className="requirements-content">
         <h5 style={{ marginBottom: "1rem" }}>

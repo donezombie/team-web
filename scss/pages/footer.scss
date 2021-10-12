@@ -1,3 +1,14 @@
+.pepe-footer {
+  position: relative;
+  bottom: -100px;
+  left: -100px;
+  width: 150px;
+
+  img {
+    width: 100%;
+  }
+}
+
 .footer--copyright {
   text-align: center;
   color: $subtitle-color;
@@ -23,10 +34,10 @@
   svg {
     font-size: 4rem;
     padding: 1.1rem;
-    
+
     border-radius: 50%;
     border: 1px solid $subtitle-color;
-    
+
     color: $subtitle-color;
     margin-right: 22px;
   }
@@ -41,7 +52,8 @@
     text-decoration: none;
     color: $default-color;
   }
-  p, a {
+  p,
+  a {
     font-size: 0.9rem;
   }
 }

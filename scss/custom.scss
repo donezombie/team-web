@@ -28,6 +28,14 @@ hr {
   width: 100%;
 }
 
+.requirements {
+  position: relative;
+  #trigger {
+    position: absolute;
+    top: calc(50% + 100px);
+  }
+}
+
 .body-content {
   padding-top: 80px;
 }

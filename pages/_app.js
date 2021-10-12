@@ -59,7 +59,7 @@ export default function MyApp({ Component, pageProps }) {
             </div>
           </Body>
           {/* <GoogleMaps /> */}
-          {/* <Footer /> */}
+          <Footer />
         </Fragment>
       )}
     </Provider>
