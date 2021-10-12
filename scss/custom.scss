@@ -16,6 +16,10 @@ body {
   color: $text-color;
 }
 
+.wow {
+  visibility: hidden;
+}
+
 [id]::before {
   content: "";
   display: block;

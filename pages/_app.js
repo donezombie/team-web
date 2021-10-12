@@ -34,7 +34,7 @@ export default function MyApp({ Component, pageProps }) {
     new global.window.WOW().init();
     Timer = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 600);
     return () => {
       clearTimeout(Timer);
     };
