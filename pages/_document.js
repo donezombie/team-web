@@ -15,11 +15,11 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
             rel="stylesheet"
           />
+          <script src="/static/js/wow.min.js" />
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script async src="/static/js/wow.min.js" />
         </body>
       </html>
     );
