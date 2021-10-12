@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LinkNext from "next/link";
 import { Link } from "react-scroll";
 import Navbar from "../../components/Navbar";
-import { isSafariBrowser } from "../../ultis";
+import { isSafariBrowser as isSafariBrowserUltis } from "../../ultis";
 
 const listMenu = [
   {
@@ -21,7 +21,12 @@ const listMenu = [
 
 const logo = "/static/assets/logo.png";
 
+let isSafariBrowser = () => {};
 const Menu = () => {
+  useEffect(() => {
+    isSafariBrowser = isSafariBrowserUltis;
+  }, []);
+
   return (
     <div className="container navbar">
       <div className="navbar__logo">

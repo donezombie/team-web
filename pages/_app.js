@@ -31,10 +31,10 @@ export default function MyApp({ Component, pageProps }) {
   let Timer = useRef(null);
 
   useEffect(() => {
+    new global.window.WOW().init();
     Timer = setTimeout(() => {
       setLoading(false);
     }, 1000);
-    new global.window.WOW().init();
     return () => {
       clearTimeout(Timer);
     };
@@ -53,7 +53,7 @@ export default function MyApp({ Component, pageProps }) {
           <Header />
           <ScrollToTop />
           <Body>
-            <div className="container">
+            <div className="container wow fadeIn">
               {/* <div id="nprogress" /> */}
               <Component {...pageProps} />
             </div>
